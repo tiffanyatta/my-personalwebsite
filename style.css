@@ -1,0 +1,100 @@
+ /* STYLE SECTIONING TAGS */
+body {
+  font-family:'Kode Mono', monospace;
+ background-color: #d392d0;
+  background-image: linear-gradient(to right, #d392d0, #4e4ef4);
+}
+
+/* STYLE TEXT */
+
+h1.main-header{
+  color: #e7e7ee;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+  text-align: center;
+  
+}
+
+h1.portfolio-header{
+  color: #e7e7ee;
+  text-shadow: 1px 1px 2px #000000, 0 0 25px #570359, 0 0 5px #e70ddc;
+  text-align: center;
+}
+
+h2.firstsub-heading{
+  color:#e7e7ee;
+  text-shadow: 1px 1px 2px black, 0 0 25px #31319b, 0 0 5px darkblue;
+  
+  
+  
+}
+
+h1.contact-header{
+  color: #e7e7ee;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+  text-align: center;
+}
+
+h2.secondsub-heading{
+  color:#e7e7ee;
+  text-shadow: 1px 1px 2px black, 0 0 25px cyan, 0 0 5px #540d2f;
+}
+
+p {
+  color: #e7e7ee;
+  font-size:1.2em;
+}
+
+/* STYLE POS OF TEXT */
+
+p.center-text {
+  text-align: center;
+}
+
+p.right-text {
+  text-align: right;
+}
+
+/* STYLE IMAGES */
+img.rounded{
+  border-radius: 50%;
+  border: 3px solid white;
+  display: block;
+  margin: 0 auto;
+}
+
+img.gitlogo,img.outlooklogo{
+  height: auto; 
+}
+
+div.image-group{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+
+
+/* STYLE NAV BAR */
+ul{
+  list-style-type: none;
+  background-color:white;
+  overflow: hidden;
+  padding: 1em;
+  text-align: center;
+}
+
+li{
+  display: inline-block;
+}
+
+li a{
+  text-decoration: none;
+  color:purple;
+  padding: 1em;
+}
+
+li a:hover {
+  background-color:#cd85f4;
+}
