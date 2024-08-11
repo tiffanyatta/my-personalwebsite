@@ -98,3 +98,30 @@ li a{
 li a:hover {
   background-color:#cd85f4;
 }
+
+/* Container to hold the two images side by side */
+.image-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px; /* Space between the images */
+  margin: 10px 0; /* Optional margin */
+}
+
+/* Ensure images scale properly */
+.fixed-image {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Ensure the right-text paragraph respects layout */
+.right-text {
+  text-align: center; /* Optional: Center text */
+}
+
+/* Adjustments for larger screens if needed */
+@media (min-width: 600px) {
+  .fixed-image {
+    max-width: 100%; /* Ensure images don't exceed container */
+  }
+}
