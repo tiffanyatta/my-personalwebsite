@@ -6,12 +6,40 @@ body {
 }
 
 /* STYLE TEXT */
+h1.main-header {
+  text-align: center;
+  margin-top: 50px; /* optional spacing from top */
+}
 
-h1.main-header{
+/* FLIP ANIMATION CONTAINER */
+.waviy {
+  position: relative;
+}
+
+/* ANIMATED SPAN STYLE */
+.waviy span {
+  position: relative;
+  display: inline-block;
+  font-size: 40px;
+  color: #e7e7ee;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+  text-transform: none;
+  animation: flip 2s infinite;
+  animation-delay: calc(0.2s * var(--i));
+}
+
+/* ANIMATION */
+@keyframes flip {
+  0%, 80% {
+    transform: rotateY(360deg);
+  }
+}
+/* h1.main-header{
   color: #e7e7ee;
   text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
   text-align: center;
-}
+} */
+
 
 h1.portfolio-header{
   color: #e7e7ee;
