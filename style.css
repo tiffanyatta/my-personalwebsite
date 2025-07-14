@@ -61,6 +61,12 @@ h1.contact-header{
   text-align: center;
 }
 
+h1.resume{
+  color: #e7e7ee;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+  text-align: center;
+}
+
 h2.secondsub-heading{
   color:#e7e7ee;
   text-shadow: 1px 1px 2px black, 0 0 25px cyan, 0 0 5px #540d2f;
@@ -69,6 +75,12 @@ h2.secondsub-heading{
 p {
   color: #e7e7ee;
   font-size:1.2em;
+}
+
+.resume-viewer {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
 }
 
 /* STYLE POS OF TEXT */
@@ -108,7 +120,7 @@ img.rounded{
   text-align: center;
 }
 
-img.gitlogo,img.outlooklogo{
+img.gitlogo,img.outlooklogo,img.linkedin{
   height: auto; 
 }
 
