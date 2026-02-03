@@ -261,13 +261,37 @@ a:hover {
 }
 
 /* Enhanced section styling */
-.about-section, .work-section, .interests-section, .portfolio-intro, .projects-section, .contact-links, .resume-section {
+.about-section, .work-section, .interests-section, .photography-section, .portfolio-intro, .projects-section, .contact-links, .resume-section {
   margin: 40px 0;
   padding: 30px;
   background: rgba(255, 255, 255, 0.05);
   border-radius: 20px;
   backdrop-filter: blur(10px);
   border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Photography gallery – all images displayed vertically (portrait) */
+.photo-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 25px;
+}
+
+.photo-gallery .photo-vertical {
+  width: 220px;
+  height: 280px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 15px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.photo-gallery .photo-vertical:hover {
+  transform: scale(1.03);
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.3);
 }
 
 .project-card {
@@ -319,9 +343,14 @@ a:hover {
     font-size: 0.9em;
   }
 
-  .about-section, .work-section, .interests-section, .portfolio-intro, .projects-section, .contact-links, .resume-section {
+  .about-section, .work-section, .interests-section, .photography-section, .portfolio-intro, .projects-section, .contact-links, .resume-section {
     padding: 20px;
     margin: 20px 0;
+  }
+
+  .photo-gallery .photo-vertical {
+    width: 160px;
+    height: 200px;
   }
 }
 
@@ -345,8 +374,13 @@ a:hover {
     padding: 20px;
   }
 
-  .about-section, .work-section, .interests-section, .portfolio-intro, .projects-section, .contact-links, .resume-section {
+  .about-section, .work-section, .interests-section, .photography-section, .portfolio-intro, .projects-section, .contact-links, .resume-section {
     padding: 15px;
     margin: 15px 10px;
+  }
+
+  .photo-gallery .photo-vertical {
+    width: 140px;
+    height: 180px;
   }
 }
