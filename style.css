@@ -294,6 +294,49 @@ a:hover {
   box-shadow: 0 12px 35px rgba(0, 0, 0, 0.3);
 }
 
+.photo-help {
+  text-align: center;
+  margin-top: 24px;
+  font-size: 0.95em;
+  opacity: 0.95;
+}
+
+/* Step-by-step instructions for adding photos */
+.photo-instructions {
+  margin-top: 32px;
+  padding: 24px;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.photo-instructions h3 {
+  color: #e7e7ee;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-size: 1.25em;
+}
+
+.photo-instructions ol {
+  color: #e7e7ee;
+  padding-left: 1.4em;
+  margin: 0 0 12px 0;
+}
+
+.photo-instructions li {
+  display: list-item;
+  margin: 10px 0;
+  line-height: 1.5;
+}
+
+.photo-instructions-note {
+  margin: 16px 0 0 0;
+  font-size: 0.95em;
+  font-style: italic;
+  opacity: 0.95;
+}
+
 .project-card {
   background: rgba(255, 255, 255, 0.1);
   border-radius: 15px;
